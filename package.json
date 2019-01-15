@@ -11,6 +11,7 @@
   "scripts": {
     "build": "rollup -c",
     "build-uglify": "rollup -c && uglifyjs build/clmtrackr.js -c > build/clmtrackr.min.js",
+    "server": "http-server . -p 8080 -a 0.0.0.0 -i",
     "clean": "rm -rf build"
   },
   "author": {
